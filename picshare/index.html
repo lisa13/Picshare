@@ -18,46 +18,48 @@
     </head>
 
     <body>
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container">
-                <div class="navbar-header page-scroll">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="sr-only"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand page-scroll" href="#page-top">Picshare</a>
-                </div>
 
-
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="hidden">
-                            <a href="#page-top"></a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="#">About</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="#">Forum</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
 
         <div id="myCarousel" class="carousel slide">
+            <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header page-scroll">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand page-scroll" href="#page-top">Picshare</a>
+                    </div>
+
+
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="hidden">
+                                <a href="#page-top"></a>
+                            </li>
+                            <li>
+                                <a class="page-scroll" href="#">About</a>
+                            </li>
+                            <li>
+                                <a class="page-scroll" href="#">Forum</a>
+                            </li>
+                            <li>
+                                <a class="page-scroll" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
             <ul class = "carousel-indicators">
-                <li data-target="myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="myCarousel" data-slide-to="1"></li>
-                <li data-target="myCarousel" data-slide-to="2"></li>
-                <li data-target="myCarousel" data-slide-to="3"></li>
-                <li data-target="myCarousel" data-slide-to="4"></li>
-                <li data-target="myCarousel" data-slide-to="5"></li>
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li>
             </ul>
 
             <div class = "carousel-inner">
@@ -77,7 +79,7 @@
                 <div class = "item"> 
                     <img src="img/jelly.jpg" alt="#" class="img-responsive"/>
                     <div class="carousel-caption">
-                        <h1>Take care of this planet! It's the only one we've got!</h1>
+                        <h1>Take care of this planet! It's the only one we got!</h1>
                     </div>
                 </div>
 
@@ -101,11 +103,11 @@
                         <h1>Care more about your planet not about who created it!</h1>
                     </div>
                 </div>
+                <div id="divCarousel" class="carousel-control">
+                    <a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+                    <a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+                </div>
             </div>
-            <a class="carousel-control left" href="#myCarousel" data-slide="prev"></a>
-            <span class="icon-prev"></span>
-            <a class="carousel-control right" href="#myCarousel" data-slide="next"></a>
-            <span class="icon-next"></span>
         </div>
 
         <footer>
@@ -139,8 +141,7 @@
         <script src="js/bootstrap.min.js"></script>
         <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script> 
         <script src="../%pathtofile%/bootstrap.min.js"></script>
-        <script> $('#myCarousel').carousel({interval: 300});</script>﻿
+        <script> $('#myCarousel').carousel({interval: 6000});</script>﻿
 
     </body>
-
 </html>
