@@ -1,11 +1,8 @@
-body, .container {
-    height:100%;
-    width: 100%;
-}  
-h2{
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    margin-bottom: 35%;
-    color: #FFEC71;
+
+h1{
+    font-family: Arial, "Lucida Console", Monaco, monospace;
+    margin-bottom: 32%;
+   
 }
 .navbar-default{
     background-color:#222;
@@ -84,10 +81,10 @@ ul.social-buttons li a:hover,ul.social-buttons li a:focus,ul.social-buttons li a
 }
 
 .icon-prev{
-  color: gold;  
+    color: gold;  
 }
 .icon-next{
-    
+
     color: gold;
 }
 
