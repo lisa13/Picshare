@@ -2,7 +2,7 @@ body, .container {
     height:100%;
     width: 100%;
 }  
-h1{
+h2{
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     margin-bottom: 35%;
     color: #FFEC71;
@@ -60,7 +60,7 @@ footer ul.quicklinks{
     margin-bottom:0;
     line-height:40px;
     font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  }
+}
 ul.social-buttons li a{
     display:block;
     background-color:#222;
@@ -79,7 +79,17 @@ ul.social-buttons li a{
 ul.social-buttons li a:hover,ul.social-buttons li a:focus,ul.social-buttons li a:active{
     background-color:#fed136;
 }
+#divCarousel{
+    width: 100%;
+}
 
+.icon-prev{
+  color: gold;  
+}
+.icon-next{
+    
+    color: gold;
+}
 
 @media (min-width:768px){
     .navbar-default{
